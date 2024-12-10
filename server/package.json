@@ -1,0 +1,40 @@
+{
+  "name": "ars-backend-js-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "server": "npx nodemon",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "@concordium/browser-wallet-api-helpers": "^2.8.0",
+    "@concordium/browser-wallet-api-types": "^0.1.1",
+    "@concordium/node-sdk": "^9.4.0",
+    "@concordium/wallet-connectors": "^0.3.2",
+    "@grpc/grpc-js": "^1.9.5",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "croner": "^6.0.2",
+    "dotenv-flow": "^3",
+    "express": "^4.18.2",
+    "jdenticon": "^3.2.0",
+    "leb128": "^0.0.5",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "mongoose": "^7.0.1",
+    "node-cron": "^3.0.3",
+    "toad-scheduler": "^2.2.0",
+    "transform-keys": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.21",
+    "prettier": "2.8.4"
+  }
+}
